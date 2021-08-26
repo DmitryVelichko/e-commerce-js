@@ -152,6 +152,8 @@ p {
   transform: translateX(-50%);
 }
 
+/* -------offer------- */
+
 h4 {
   color: #555;
   font-weight: normal;
@@ -182,5 +184,11 @@ h4 {
 
 small {
   color: #555;
-  
 }
+
+/* -------testimonial------- */
+
+.testimonial {
+  padding-top: 100px;
+}
+
