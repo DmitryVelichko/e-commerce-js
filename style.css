@@ -127,3 +127,7 @@ p {
   min-width: 200px;
   margin-bottom: 50px;
 }
+
+.col-4 img {
+  width: 100%;
+}
