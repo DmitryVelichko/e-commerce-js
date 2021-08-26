@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar__img {
@@ -50,37 +50,36 @@ p {
 }
 
 .row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .col-2 {
-    flex-basis: 50%;
-    min-width: 300px;
+  flex-basis: 50%;
+  min-width: 300px;
 }
 
 .col-2 img {
-    max-width: 100%;
-    padding: 50px 0;
+  max-width: 100%;
+  padding: 50px 0;
 }
 
 .col-2 h1 {
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
 }
 
 .btn {
-    display: inline-block;
-    background-color: #ff523b;
-    color: #fff;
-   padding: 8px 30px;
-   margin:30px 0;
-   border-radius: 30px;
-   transition: 0.5s;
+  display: inline-block;
+  background-color: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: 0.5s;
 }
 
 .btn:hover {
@@ -88,11 +87,11 @@ p {
 }
 
 .header {
-    background: radial-gradient(#fff, #ffd6d6);
+  background: radial-gradient(#fff, #ffd6d6);
 }
 
 .header .row {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .img-cart {
@@ -126,6 +125,7 @@ p {
   padding: 10px;
   min-width: 200px;
   margin-bottom: 50px;
+  transition: transform 0.5s;
 }
 
 .col-4 img {
@@ -141,7 +141,7 @@ p {
 }
 
 .title:after {
-  content: '';
+  content: "";
   background: #ff523b;
   width: 80px;
   height: 5px;
@@ -150,4 +150,22 @@ p {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+h4 {
+  color: #555;
+  font-weight: normal;
+}
+
+.col-4 p {
+  font-size: 14px;
+}
+
+.rating .fas,
+.far {
+  color: #ff523b;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
 }
