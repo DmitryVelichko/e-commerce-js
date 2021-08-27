@@ -393,8 +393,16 @@
             </ul>
           </div>
         </div>
-        <p id="copyright">Copyright</p>
+        <p id="copyright"></p>
       </div>
     </div>
+
+
+    <script>
+       window.onload = () => {
+        let currentYear = new Date().getFullYear();
+        document.getElementById('copyright').innerHTML = `Copyright &copy; ${currentYear}`;
+      }
+    </script>
   </body>
 </html>
