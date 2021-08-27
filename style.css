@@ -278,3 +278,7 @@ small {
   flex: 1;
   text-align: center;
 }
+
+.footer-col-2 img {
+  width: 180px;
+}
