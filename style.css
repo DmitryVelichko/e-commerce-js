@@ -329,6 +329,11 @@ text-align: center;
     top: 70px;
     left: 0;
     background: #333;
-    width: 100px;
+    width: 100%;
+  }
+
+  nav ul li {
+   display: block; 
+   margin-right: 50px;
   }
 }
