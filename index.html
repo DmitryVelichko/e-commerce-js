@@ -32,7 +32,7 @@
             <img src="images/logo.png" class="navbar__img" />
           </div>
           <nav>
-            <ul>
+            <ul id='menuItems'>
               <li><a href="#">Home</a></li>
               <li><a href="#">Products</a></li>
               <li><a href="#">About</a></li>
@@ -41,7 +41,7 @@
             </ul>
           </nav>
           <img src="images/cart.png" class="img-cart" />
-          <img src="images/menu.png" class='menu-icon'>
+          <img src="images/menu.png" class='menu-icon' onclick='menutoggle()'>
         </div>
         <div class="row">
           <div class="col-2">
@@ -401,6 +401,8 @@
 
 
     <script>
+      let menuItems = document.getElementById('menuItems');
+
        window.onload = () => {
         let currentYear = new Date().getFullYear();
         document.getElementById('copyright').innerHTML = `Copyright &copy; ${currentYear}`;
