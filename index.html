@@ -32,7 +32,7 @@
             <img src="images/logo.png" class="navbar__img" />
           </div>
           <nav>
-            <ul id='menuItems'>
+            <ul id="menuItems">
               <li><a href="#">Home</a></li>
               <li><a href="#">Products</a></li>
               <li><a href="#">About</a></li>
@@ -41,7 +41,7 @@
             </ul>
           </nav>
           <img src="images/cart.png" class="img-cart" />
-          <img src="images/menu.png" class='menu-icon' onclick='menutoggle()'>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
         </div>
         <div class="row">
           <div class="col-2">
@@ -364,8 +364,8 @@
             <h3>Download Our App</h3>
             <p>Download App for Android and iOS mobile phone</p>
             <div class="app-logo">
-              <img src="images/play-store.png">
-              <img src="images/app-store.png">
+              <img src="images/play-store.png" />
+              <img src="images/app-store.png" />
             </div>
           </div>
           <div class="footer-col-2">
@@ -394,19 +394,29 @@
             </ul>
           </div>
         </div>
-        <hr>
+        <hr />
         <p id="copyright"></p>
       </div>
     </div>
 
-
     <script>
-      let menuItems = document.getElementById('menuItems');
+      let menuItems = document.getElementById("menuItems");
+      menuItems.style.maxHeight = "0px";
 
-       window.onload = () => {
-        let currentYear = new Date().getFullYear();
-        document.getElementById('copyright').innerHTML = `Copyright &copy; ${currentYear}`;
+      function menutoggle() {
+        if (menuItems.style.maxHeight === "0px") {
+          menuItems.style.maxHeight = "200px";
+        } else {
+          menuItems.style.maxHeight = "0px";
+        }
       }
+
+      window.onload = () => {
+        let currentYear = new Date().getFullYear();
+        document.getElementById(
+          "copyright"
+        ).innerHTML = `Copyright &copy; ${currentYear}`;
+      };
     </script>
   </body>
 </html>

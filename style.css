@@ -331,6 +331,8 @@ text-align: center;
     left: 0;
     background: #333;
     width: 100%;
+    overflow: hidden;
+    transition: max-height 0.5s;
   }
 
   nav ul li {
@@ -349,3 +351,5 @@ text-align: center;
     cursor: pointer;
   }
 }
+
+/* media query for screens less than 600px */
