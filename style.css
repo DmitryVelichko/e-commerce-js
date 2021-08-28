@@ -333,6 +333,7 @@ text-align: center;
     width: 100%;
     overflow: hidden;
     transition: max-height 0.5s;
+    opacity: 0.9;
   }
 
   nav ul li {
