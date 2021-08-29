@@ -365,7 +365,9 @@ select {
   padding: 5px;
 }
 
-
+select:focus {
+  outline: none;
+}
 
 /* media query for screens less than 600px */
 
