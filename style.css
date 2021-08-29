@@ -353,6 +353,13 @@ text-align: center;
   }
 }
 
+/* all products page */
+
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+
 /* media query for screens less than 600px */
 
 @media only screen and (max-width: 600px) {
