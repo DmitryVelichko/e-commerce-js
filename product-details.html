@@ -49,20 +49,20 @@
     <div class="small-container single-product">
       <div class="row">
         <div class="col-2">
-          <img src="images/gallery-1.jpg" width="100%" />
+          <img src="images/gallery-1.jpg" width="100%" id='product-img' />
 
           <div class="small-img-row">
             <div class="small-img-col">
-              <img src="images/gallery-1.jpg" width="100%" />
+              <img src="images/gallery-1.jpg" width="100%" class='small-img'/>
             </div>
             <div class="small-img-col">
-              <img src="images/gallery-2.jpg" width="100%" />
+              <img src="images/gallery-2.jpg" width="100%" class='small-img'/>
             </div>
             <div class="small-img-col">
-              <img src="images/gallery-3.jpg" width="100%" />
+              <img src="images/gallery-3.jpg" width="100%" class='small-img'/>
             </div>
             <div class="small-img-col">
-              <img src="images/gallery-4.jpg" width="100%" />
+              <img src="images/gallery-4.jpg" width="100%" class='small-img'/>
             </div>
           </div>
         </div>
@@ -210,6 +210,30 @@
           "copyright"
         ).innerHTML = `Copyright &copy; ${currentYear}`;
       };
+    </script>
+
+    <!-- js for product gallery -->
+
+    <script>
+      let productImg = document.getElementById('product-img');
+      let smallImg = document.getElementsByClassName('small-img');
+
+      smallImg[0].onclick = () => {
+        productImg.src = smallImg[0].src;
+      }
+
+      smallImg[1].onclick = () => {
+        productImg.src = smallImg[1].src;
+      }
+
+      smallImg[2].onclick = () => {
+        productImg.src = smallImg[2].src;
+      }
+
+      smallImg[3].onclick = () => {
+        productImg.src = smallImg[3].src;
+      }
+   
     </script>
   </body>
 </html>
