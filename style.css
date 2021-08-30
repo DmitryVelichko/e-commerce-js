@@ -435,6 +435,16 @@ input:focus {
   margin-left: 10px;
 }
 
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
 /* media query for screens less than 600px */
 
 @media only screen and (max-width: 600px) {
