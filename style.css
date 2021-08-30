@@ -396,6 +396,22 @@ select:focus {
   margin-top: 80px;
 }
 
+
+.single-product .col-2 {
+  padding: 20px;
+}
+
+.single-product .col-2 img {
+  padding: 0;
+}
+
+.single-product h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+
 /* media query for screens less than 600px */
 
 @media only screen and (max-width: 600px) {
