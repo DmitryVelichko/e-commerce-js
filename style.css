@@ -389,7 +389,12 @@ select:focus {
   color: #fff;
 }
 
+/* single product details */
 
+
+.single-product {
+  margin-top: 80px;
+}
 
 /* media query for screens less than 600px */
 
