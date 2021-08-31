@@ -455,6 +455,11 @@ table {
   border-collapse: collapse;
 }
 
+.cart-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 
 /* media query for screens less than 600px */
