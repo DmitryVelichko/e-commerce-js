@@ -478,6 +478,18 @@ td input {
   padding: 5px;
 }
 
+td a {
+  color: #ff523b;
+  font-size: 12px;
+}
+
+td img {
+  
+}
+
+
+
+
 /* media query for screens less than 600px */
 
 @media only screen and (max-width: 600px) {
