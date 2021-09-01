@@ -507,6 +507,19 @@ th:last-child {
   text-align: right;
 }
 
+/* account-page */
+
+.account-page {
+  padding: 50px 0;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+
+
+
+
+
+
 /* media query for screens less than 600px */
 
 @media only screen and (max-width: 600px) {
