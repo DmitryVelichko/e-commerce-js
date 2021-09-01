@@ -445,7 +445,6 @@ input:focus {
 
 /* cart-items details */
 
-
 .cart-page {
   margin: 80px auto;
 }
@@ -455,7 +454,7 @@ table {
   border-collapse: collapse;
 }
 
-.cart-info{
+.cart-info {
   display: flex;
   flex-wrap: wrap;
 }
@@ -507,8 +506,6 @@ td:last-child {
 th:last-child {
   text-align: right;
 }
-
-
 
 /* media query for screens less than 600px */
 
