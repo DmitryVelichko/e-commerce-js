@@ -1,6 +1,6 @@
 E-commerce website built with HTML, CSS, JS. Mobile responsive.
 
-Check out the website online: https://dmitryvelichko.github.io/e-commerce-js/
+[Check out the website online.](https://dmitryvelichko.github.io/e-commerce-js/)
 
 ![1](https://user-images.githubusercontent.com/42185328/131671046-f63a187d-1c6b-4a51-bf7a-21eb2697c99f.png)
 
